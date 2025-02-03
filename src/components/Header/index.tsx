@@ -63,7 +63,7 @@ const Header = () => {
                                 </g>
                             </g>
                         </svg>
-                        <Link className="flex text-sm transition-all duration-200 hover:text-gray-300 focus:text-gray-300" href="https://maps.app.goo.gl/C8qKaNwyayf6X43YA">Pendik/İstanbul </Link>
+                        <Link className="flex text-sm transition-all duration-200 hover:text-gray-300 focus:text-gray-300" href="https://maps.app.goo.gl/C8qKaNwyayf6X43YA">Kaynarca/İstanbul </Link>
                     </div>
                 </div>
             </header>
