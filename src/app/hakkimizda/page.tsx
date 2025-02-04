@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Zoom from 'react-medium-image-zoom';
+import 'react-medium-image-zoom/dist/styles.css';
 import React from "react";
 
 export default function About() {
@@ -26,6 +28,87 @@ export default function About() {
                     <li><p><strong>Hızlı ve Etkili Çözümler:</strong> Hem şubelerimizde hem de mobil hizmet araçlarımızla müşterilerimize hızlı ve etkili çözümler sunarak yolculuklarının güvenli devam etmesini sağlıyoruz.</p></li>
                 </ul>
                 <p>Müşterilerimizin güvenliği ve memnuniyeti bizim için her şeyden önemlidir. İstanbul Maltepe ve Kaynarca’daki şubelerimizde sizleri ağırlamaktan mutluluk duyarız. Kaliteli hizmet anlayışımızla, aracınız için en iyi çözümleri sunmak adına her zaman buradayız!</p>
+            </div>
+            <div className="flex flex-col gap-4 mt-8">
+                <h1 className="font-bold text-2xl">Kaynarca Şubemiz</h1>
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+                    <Zoom>
+                        <img
+                            src="/images/kaynarca/1.jpg"
+                            alt="Hakkımızda"
+                            className="rounded-lg duration-300 hover:scale-110"
+                        />
+                    </Zoom>
+                    <Zoom>
+                        <img
+                            src="/images/kaynarca/2.jpg"
+                            alt="Hakkımızda"
+                            className="rounded-lg duration-300 hover:scale-110"
+                        />
+                    </Zoom>
+                    <Zoom>
+                        <img
+                            src="/images/kaynarca/3.jpg"
+                            alt="Hakkımızda"
+                            className="rounded-lg duration-300 hover:scale-110"
+                        />
+                    </Zoom>
+                    <Zoom>
+                        <img
+                            src="/images/kaynarca/4.jpg"
+                            alt="Hakkımızda"
+                            className="rounded-lg duration-300 hover:scale-110"
+                        />
+                    </Zoom>
+                    <Zoom>
+                        <img
+                            src="/images/kaynarca/5.jpg"
+                            alt="Hakkımızda"
+                            className="rounded-lg duration-300 hover:scale-110"
+                        />
+                    </Zoom>
+                </div>
+            </div>
+
+            <div className="flex flex-col gap-4 mt-8">
+                <h1 className="font-bold text-2xl">Maltepe Şubemiz</h1>
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+                    <Zoom>
+                        <img
+                            src="/images/kaynarca/1.jpg"
+                            alt="Hakkımızda"
+                            className="rounded-lg duration-300 hover:scale-110"
+                        />
+                    </Zoom>
+                    <Zoom>
+                        <img
+                            src="/images/kaynarca/2.jpg"
+                            alt="Hakkımızda"
+                            className="rounded-lg duration-300 hover:scale-110"
+                        />
+                    </Zoom>
+                    <Zoom>
+                        <img
+                            src="/images/kaynarca/3.jpg"
+                            alt="Hakkımızda"
+                            className="rounded-lg duration-300 hover:scale-110"
+                        />
+                    </Zoom>
+                    <Zoom>
+                        <img
+                            src="/images/kaynarca/4.jpg"
+                            alt="Hakkımızda"
+                            className="rounded-lg duration-300 hover:scale-110"
+                        />
+                    </Zoom>
+                    <Zoom>
+                        <img
+                            src="/images/kaynarca/5.jpg"
+                            alt="Hakkımızda"
+                            className="rounded-lg duration-300 hover:scale-110"
+                        />
+                    </Zoom>
+                </div>
             </div>
         </div>
     )
