@@ -5,13 +5,11 @@ import React from "react";
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
+type Params = Promise<{ id: string }>
 
-export default async function Service({
-    params,
-}: {
-    params: { id: string }
-}) {
-    const service: IService = await getRequest(`/services/${params.id}?populate=*`)
+export default async function Service({ params }: { params: Params }) {
+    const { id } = await params;
+    const service: IService = await getRequest(`/services/${id}?populate=*`)
     return (
         <div className="p-4 pb-8 mx-auto max-w-7xl flex flex-col md:flex-row gap-8 sm:p-6 lg:p-8 md:pb-16">
             <div className="w-full md:max-w-96 min-h-64 md:min-h-96 flex items-center p-4 md:p-6 border-2 border-[#f3f0fe] rounded-lg">
