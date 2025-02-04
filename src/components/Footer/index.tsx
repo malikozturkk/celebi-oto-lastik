@@ -61,10 +61,10 @@ const Footer = () => {
 
                         <ul className="mt-6 space-y-4">
                             <li>
-                                <Link href="hakkimizda" title="Hakkımızda" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Hakkımızda </Link>
+                                <Link href="/hakkimizda" title="Hakkımızda" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Hakkımızda </Link>
                             </li>
                             <li>
-                                <Link href="iletisim" title="İletişim" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> İletişim </Link>
+                                <Link href="/iletisim" title="İletişim" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> İletişim </Link>
                             </li>
                         </ul>
                     </div>
@@ -74,11 +74,11 @@ const Footer = () => {
 
                         <ul className="mt-6 space-y-4">
                             <li>
-                                <Link href="hizmetler" title="Hizmetler" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Hizmetler </Link>
+                                <Link href="/hizmetler" title="Hizmetler" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Hizmetler </Link>
                             </li>
 
                             <li>
-                                <Link href="urunler" title="Ürünler" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Ürünler </Link>
+                                <Link href="/urunler" title="Ürünler" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Ürünler </Link>
                             </li>
                         </ul>
                     </div>
