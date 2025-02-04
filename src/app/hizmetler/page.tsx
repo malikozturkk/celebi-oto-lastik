@@ -8,7 +8,7 @@ export default async function Services() {
     const services: IService[] = await getRequest("/services?populate=*")
     return (
         <div className="p-4 pb-8 mx-auto max-w-7xl grid gap-4 sm:p-6 lg:p-8 md:pb-16 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
-            {services.map((service: IService) => (
+            {services && services.map((service: IService) => (
                 <Link
                     href={`hizmetler/${service.documentId}`}
                     key={service.id}
