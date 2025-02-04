@@ -35,35 +35,35 @@ export default function About() {
                     <Zoom>
                         <img
                             src="/images/kaynarca/1.jpg"
-                            alt="Hakkımızda"
+                            alt="Şubemiz - Kaynarca Şube"
                             className="rounded-lg duration-300 hover:scale-110"
                         />
                     </Zoom>
                     <Zoom>
                         <img
                             src="/images/kaynarca/2.jpg"
-                            alt="Hakkımızda"
+                            alt="Yol Yardım - Kaynarca Şube"
                             className="rounded-lg duration-300 hover:scale-110"
                         />
                     </Zoom>
                     <Zoom>
                         <img
                             src="/images/kaynarca/3.jpg"
-                            alt="Hakkımızda"
+                            alt="Yol Yardım - Kaynarca Şube"
                             className="rounded-lg duration-300 hover:scale-110"
                         />
                     </Zoom>
                     <Zoom>
                         <img
                             src="/images/kaynarca/4.jpg"
-                            alt="Hakkımızda"
+                            alt="Yol Yardım - Kaynarca Şube"
                             className="rounded-lg duration-300 hover:scale-110"
                         />
                     </Zoom>
                     <Zoom>
                         <img
                             src="/images/kaynarca/5.jpg"
-                            alt="Hakkımızda"
+                            alt="Yol Yardım - Kaynarca Şube"
                             className="rounded-lg duration-300 hover:scale-110"
                         />
                     </Zoom>
