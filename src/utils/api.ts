@@ -1,4 +1,4 @@
-const baseURL = process.env.NEXT_PUBLIC_BASE_STRAPI_API_URL || ''
+const baseURL = process.env.NEXT_PUBLIC_BASE_STRAPI_API_URL || 'http://127.0.0.1:1337/api'
 
 export const getRequest = async <T>(
     url: string,
