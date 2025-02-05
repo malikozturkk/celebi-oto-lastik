@@ -1,3 +1,5 @@
+import { products } from "./products"
+
 export interface IService {
     title: string
     image: string
@@ -8,6 +10,15 @@ export interface IProduct {
     category: string
     items: IService[]
 }
+
+export type ProductWithCategory = {
+    category: string;
+    item: {
+        title: string;
+        image: string;
+        description: string;
+    };
+} | null;
 
 export function slugify(title: string) {
     return title
@@ -26,6 +37,20 @@ export function slugify(title: string) {
 
 export function getServiceBySlug(slug: string): IService | undefined {
     return services.find(service => slugify(service.title) === slug);
+}
+
+export function getProductBySlug(slug: string): ProductWithCategory {
+    for (const product of products) {
+        for (const item of product.items) {
+            if (slugify(item.title) === slug) {
+                return {
+                    category: product.category,
+                    item,
+                };
+            }
+        }
+    }
+    return null;
 }
 
 export const services: IService[] = [
