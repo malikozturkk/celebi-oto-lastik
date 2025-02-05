@@ -75,35 +75,14 @@ export default function About() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                     <Zoom>
                         <img
-                            src="/images/kaynarca/1.jpg"
+                            src="/images/maltepe/1.jpg"
                             alt="Hakkımızda"
                             className="rounded-lg duration-300 hover:scale-110"
                         />
                     </Zoom>
                     <Zoom>
                         <img
-                            src="/images/kaynarca/2.jpg"
-                            alt="Hakkımızda"
-                            className="rounded-lg duration-300 hover:scale-110"
-                        />
-                    </Zoom>
-                    <Zoom>
-                        <img
-                            src="/images/kaynarca/3.jpg"
-                            alt="Hakkımızda"
-                            className="rounded-lg duration-300 hover:scale-110"
-                        />
-                    </Zoom>
-                    <Zoom>
-                        <img
-                            src="/images/kaynarca/4.jpg"
-                            alt="Hakkımızda"
-                            className="rounded-lg duration-300 hover:scale-110"
-                        />
-                    </Zoom>
-                    <Zoom>
-                        <img
-                            src="/images/kaynarca/5.jpg"
+                            src="/images/maltepe/2.jpg"
                             alt="Hakkımızda"
                             className="rounded-lg duration-300 hover:scale-110"
                         />

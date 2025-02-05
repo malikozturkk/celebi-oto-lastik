@@ -4,6 +4,11 @@ export interface IService {
     description: string
 }
 
+export interface IProduct {
+    category: string
+    items: IService[]
+}
+
 export function slugify(title: string) {
     return title
         .toLowerCase()

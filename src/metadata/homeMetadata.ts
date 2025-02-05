@@ -1,79 +1,78 @@
 import { Metadata } from 'next';
 
 export const homeMetadata: Metadata = {
-    // Temel Bilgiler
-    title: {
-        default: 'Anasayfa | My Awesome App',
-        template: '%s | My Awesome App', // Sayfa başlığına dinamik ekleme yapar
-    },
-    description: 'My Awesome App ile en iyi kullanıcı deneyimini keşfedin.',
-
-    // Yönlendirme ve Dil Ayarları
+    title: "Çelebi Oto Lastik | 7/24 Lastik, Jant, Akü Değişimi ve Yol Yardım Hizmeti",
+    description: 'Çelebi Oto Lastik ile Maltepe Bağlarbaşı ve Pendik Kaynarca şubelerimizde 7/24 lastik değişimi, jant değişimi/düzeltme, akü değişimi ve yol yardım hizmetlerinden faydalanın.',
     alternates: {
-        canonical: 'https://www.myawesomeapp.com/',
-        languages: {
-            'tr': 'https://www.myawesomeapp.com/tr',
+        canonical: 'https://www.celebiotolastik.com/',
+    },
+    keywords: [
+        'oto lastik', 'lastik değişimi', 'jant değiştirme', 'jant düzeltme', 'akü değişimi', 'lastik oteli', 'mobil lastik hizmeti',
+        'pendik kaynarca lastikçi', 'maltepe bağlarbaşı lastikçi', '7/24 yol yardım', 'lastik tamiri',
+        'acil lastik değişimi', 'pendik lastik oteli', 'maltepe lastik değişimi', 'oto yol yardım',
+        'jant tamiri', 'akü', 'lastik', 'jant', 'yol yardım', 'oto lastik tamiri', 'kaynarca lastik', 'pendik lastik',
+        'bağlarbaşı lastik', 'pendik lastik', 'kaynarca yol yardım', 'pendik yol yardım', 'bağlarbaşı yol yardım', 'maltepe yol yardım',
+        'sıfır lastik', 'ikinci el lastik', 'sıfır jant', 'ikici el jant', 'celebi oto lastik', 'celebi lastik maltepe', 'celebi lastik kaynarca',
+        'celebi yol yardım kaynarca', 'celebi yol yardım maltepe', 'celebi yol yardım'
+    ],
+    authors: [
+        { name: 'Çelebi Oto Lastik', url: 'https://www.celebiotolastik.com' }
+    ],
+    creator: 'Çelebi Oto Lastik',
+    publisher: 'Çelebi Oto Lastik',
+    colorScheme: 'light dark',
+    applicationName: 'Çelebi Oto Lastik',
+    appleWebApp: {
+        capable: true,
+        statusBarStyle: 'black-translucent',
+        title: 'Çelebi Oto Lastik',
+    },
+    robots: {
+        index: true,
+        follow: true,
+        nocache: false,
+        googleBot: {
+            index: true,
+            follow: true,
+            "max-snippet": -1,
+            "max-image-preview": 'large',
+            "max-video-preview": -1,
         },
     },
 
-    // Anahtar Kelimeler (SEO)
-    keywords: ['My Awesome App', 'teknoloji', 'inovasyon', 'web uygulaması'],
 
-    // Yazar ve Yayıncı Bilgileri
-    authors: [
-        { name: 'John Doe', url: 'https://www.johndoe.dev' },
-        { name: 'Jane Smith', url: 'https://www.janesmith.dev' },
-    ],
-    creator: 'My Awesome App Team',
-    publisher: 'My Awesome App Ltd.',
 
-    // Tema Rengi ve Görünüm
+
+
     themeColor: [
         { media: '(prefers-color-scheme: light)', color: '#ffffff' },
         { media: '(prefers-color-scheme: dark)', color: '#000000' },
     ],
-    colorScheme: 'light dark', // Karanlık ve aydınlık tema desteği
-
-    // Açık Grafik (Open Graph) - Sosyal Medya Paylaşımı için
     openGraph: {
-        title: 'My Awesome App - Dünyanın En İyi Uygulaması',
-        description: 'Tek bir tıkla dünyayı keşfedin.',
-        url: 'https://www.myawesomeapp.com',
-        siteName: 'My Awesome App',
+        title: 'Çelebi Oto Lastik | 7/24 Lastik ve Yol Yardım Hizmeti',
+        description: 'Maltepe Bağlarbaşı ve Pendik Kaynarca şubelerimizde 7/24 oto lastik, jant düzeltme, akü değişimi ve yol yardım hizmeti.',
+        url: 'https://www.celebiotolastik.com',
+        siteName: 'Çelebi Oto Lastik',
         images: [
             {
-                url: 'https://www.myawesomeapp.com/og-image.jpg',
+                url: 'https://www.celebiotolastik.com/og-image.jpg',
                 width: 1200,
                 height: 630,
-                alt: 'My Awesome App Açık Grafik Görseli',
+                alt: 'Çelebi Oto Lastik Açık Grafik Görseli',
             },
         ],
         locale: 'tr_TR',
         type: 'website',
     },
-
-    // Twitter Kartları
     twitter: {
-        card: 'summary_large_image', // Büyük görselli kart
-        title: 'My Awesome App',
-        description: 'Tek bir tıkla dünyayı keşfedin.',
-        site: '@myawesomeapp',
-        creator: '@johndoe',
-        images: ['https://www.myawesomeapp.com/twitter-card.jpg'],
+        card: 'summary_large_image',
+        title: 'Çelebi Oto Lastik',
+        description: 'Pendik ve Maltepe şubelerimizde 7/24 lastik değişimi, akü değişimi ve yol yardım hizmetleri.',
+        site: '@celebiotolastik',
+        creator: '@celebiotolastik',
+        images: ['https://www.celebiotolastik.com/twitter-card.jpg'],
     },
-
-    // Uygulama Ayarları (PWA / Mobil)
-    applicationName: 'My Awesome App',
-    appleWebApp: {
-        capable: true,
-        statusBarStyle: 'black-translucent',
-        title: 'My Awesome App',
-    },
-
-    // Manifest Dosyası (PWA için)
     manifest: '/site.webmanifest',
-
-    // İkonlar
     icons: {
         icon: '/favicon.ico',
         shortcut: '/shortcut-icon.png',
@@ -86,27 +85,12 @@ export const homeMetadata: Metadata = {
             },
         ],
     },
-
-    // Arama Motoru İndeksleme Ayarları
-    robots: {
-        index: true,         // Google gibi arama motorları dizine ekleyebilir
-        follow: true,        // Linkleri takip etmesine izin verilir
-        nocache: false,      // Sayfanın önbelleğe alınmasına izin verilir
-        googleBot: {
-            index: true,
-            follow: true,
-            "max-snippet": -1,     // Snippet uzunluğu sınırsız
-            "max-image-preview": 'large',
-            "max-video-preview": -1,
-        },
-    },
-
     other: {
         'msapplication-TileColor': '#2b5797',
         'msapplication-config': '/browserconfig.xml',
         'viewport': 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no',
         'searchAction': JSON.stringify({
-            target: 'https://www.myawesomeapp.com/search?q={search_term_string}',
+            target: 'https://www.celebiotolastik.com/search?q={search_term_string}',
             queryInput: 'required name=search_term_string',
         }),
     },
