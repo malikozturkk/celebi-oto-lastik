@@ -1,21 +1,20 @@
-import { IService } from "@/types/strapi.type";
-import { getRequest } from "@/utils/api";
+
 import Link from "next/link";
 import React from "react";
+import { services, IService, slugify } from "@/data/services";
 
 
 export default async function Services() {
-    const services: IService[] = await getRequest("/services?populate=*")
     return (
         <div className="p-4 pb-8 mx-auto max-w-7xl grid gap-4 sm:p-6 lg:p-8 md:pb-16 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
-            {services && services.map((service: IService) => (
+            {services && (services as IService[]).map((service: IService) => (
                 <Link
-                    href={`hizmetler/${service.documentId}`}
-                    key={service.id}
+                    href={`hizmetler/${slugify(service.title)}`}
+                    key={slugify(service.title)}
                     className="flex flex-col items-center gap-3 p-4 rounded-lg bg-white justify-end"
                 >
                     <img
-                        src={process.env.NEXT_PUBLIC_CDN2_URL + service.image.url}
+                        src={`/images/services/${slugify(service.title)}.jpg`}
                         alt={service.title}
                         className="rounded-lg mb-3"
                     />
