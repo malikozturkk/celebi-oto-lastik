@@ -11,7 +11,7 @@ export default function Products() {
             <h1 className="font-bold text-4xl">Ürünlerimiz</h1>
             <div className="flex flex-col md:flex-row gap-8">
                 <div className="w-full h-fit md:w-1/6 flex flex-col gap-3 p-4 rounded-lg bg-white">
-                    <h3 className="text-xl font-bold">Kategoriler</h3>
+                    <h3 className="text-xl font-bold border-b">Kategoriler</h3>
                     {products.map((category) => (
                         <button
                             key={category.category}
@@ -42,9 +42,9 @@ export default function Products() {
                                             alt={product.title}
                                             className="rounded-lg mb-3 h-44 max-h-44"
                                         />
-                                        <h3 className="font-bold text-xl truncate w-full">{product.title}</h3>
-                                        <p className="font-medium text-base text-[#687279] truncate w-full">{product.description}</p>
-                                        <button type="button" className="w-full inline-flex items-center justify-center px-5 py-3 font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700">Detayları Gör</button>
+                                        <h3 className="font-bold text-xl line-clamp-2 w-full">{product.title}</h3>
+                                        <p className="font-medium text-base text-[#687279] line-clamp-3 w-full">{product.description}</p>
+                                        <button type="button" className="w-full inline-flex items-center justify-center px-5 py-3 font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700">Devamını Gör</button>
                                     </Link>
                                 ))}
                             </div>
