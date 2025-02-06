@@ -2,7 +2,10 @@
 import Link from "next/link";
 import React from "react";
 import { services, IService, slugify } from "@/data/services";
+import { servicesMetadata } from "@/metadata/servicesMetadata";
+import { Metadata } from "next";
 
+export const metadata: Metadata = servicesMetadata;
 
 export default async function Services() {
     return (

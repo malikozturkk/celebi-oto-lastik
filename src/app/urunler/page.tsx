@@ -1,9 +1,12 @@
-"use client"
 import Link from "next/link";
 import React from "react";
 import { products } from "@/data/products";
 import { IService, slugify } from "@/data/services";
+import { productsMetadata } from "@/metadata/productsMetadata";
+import { Metadata } from "next";
+import ProductsCategory from "@/components/ProductsCategory";
 
+export const metadata: Metadata = productsMetadata
 
 export default function Products() {
     return (
@@ -13,17 +16,7 @@ export default function Products() {
                 <div className="w-full h-fit md:w-1/6 flex flex-col gap-3 p-4 rounded-lg bg-white shadow-lg">
                     <h3 className="text-xl font-bold border-b">Kategoriler</h3>
                     {products.map((category) => (
-                        <button
-                            key={category.category}
-                            type="button"
-                            className="font-bold text-sm text-start hover:text-blue-600"
-                            onClick={(e) => {
-                                e.preventDefault();
-                                document.getElementById(slugify(category.category))?.scrollIntoView({ behavior: "smooth" });
-                            }}
-                        >
-                            {category.category}
-                        </button>
+                        <ProductsCategory category={category} />
                     ))}
                 </div>
                 <div className="flex flex-col gap-8 w-full md:w-5/6">

@@ -1,19 +1,15 @@
 import { Metadata } from 'next';
 
-export const homeMetadata: Metadata = {
-    title: "Çelebi Oto Lastik | 7/24 Lastik, Jant, Akü Değişimi ve Yol Yardım Hizmeti",
-    description: 'Çelebi Oto Lastik ile Maltepe Bağlarbaşı ve Pendik Kaynarca şubelerimizde 7/24 lastik değişimi, jant değişimi/düzeltme, akü değişimi ve yol yardım hizmetlerinden faydalanın.',
+export const contactMetadata: Metadata = {
+    title: "İletişim | Çelebi Oto Lastik - Kaynarca ve Maltepe Şubeleri",
+    description: "Çelebi Oto Lastik Kaynarca ve Maltepe şubelerimize iletişim numaralarımız, konum bilgileri, e-posta adresimiz ve harita üzerinden kolayca ulaşabilirsiniz.",
     alternates: {
-        canonical: 'https://www.celebiotolastik.com/',
+        canonical: 'https://www.celebiotolastik.com/iletisim',
     },
     keywords: [
-        'oto lastik', 'lastik değişimi', 'jant değiştirme', 'jant düzeltme', 'akü değişimi', 'lastik oteli', 'mobil lastik hizmeti',
-        'pendik kaynarca lastikçi', 'maltepe bağlarbaşı lastikçi', '7/24 yol yardım', 'lastik tamiri',
-        'acil lastik değişimi', 'pendik lastik oteli', 'maltepe lastik değişimi', 'oto yol yardım',
-        'jant tamiri', 'akü', 'lastik', 'jant', 'yol yardım', 'oto lastik tamiri', 'kaynarca lastik', 'pendik lastik',
-        'bağlarbaşı lastik', 'pendik lastik', 'kaynarca yol yardım', 'pendik yol yardım', 'bağlarbaşı yol yardım', 'maltepe yol yardım',
-        'sıfır lastik', 'ikinci el lastik', 'sıfır jant', 'ikici el jant', 'celebi oto lastik', 'celebi lastik maltepe', 'celebi lastik kaynarca',
-        'celebi yol yardım kaynarca', 'celebi yol yardım maltepe', 'celebi yol yardım'
+        'çelebi oto lastik iletişim', 'kaynarca lastikçi iletişim', 'maltepe lastikçi iletişim', 'oto lastik telefon numarası',
+        'oto lastik konum', 'lastikçi harita', 'oto lastik yol tarifi', 'lastik tamiri iletişim', 'akü değişimi iletişim',
+        'oto yol yardım telefon', '7/24 lastik değişimi iletişim', 'jant tamiri adres', 'acil lastik değişimi iletişim'
     ],
     authors: [
         { name: 'Çelebi Oto Lastik', url: 'https://www.celebiotolastik.com' }
@@ -40,9 +36,9 @@ export const homeMetadata: Metadata = {
         },
     },
     openGraph: {
-        title: 'Çelebi Oto Lastik | 7/24 Lastik ve Yol Yardım Hizmeti',
-        description: 'Maltepe Bağlarbaşı ve Pendik Kaynarca şubelerimizde 7/24 oto lastik, jant düzeltme, akü değişimi ve yol yardım hizmeti.',
-        url: 'https://www.celebiotolastik.com',
+        title: 'İletişim | Çelebi Oto Lastik',
+        description: 'Çelebi Oto Lastik Kaynarca ve Maltepe şubelerine iletişim numaralarımız, adreslerimiz ve harita üzerinden kolayca ulaşabilirsiniz.',
+        url: 'https://www.celebiotolastik.com/iletisim',
         siteName: 'Çelebi Oto Lastik',
         images: [
             {
@@ -55,8 +51,8 @@ export const homeMetadata: Metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Çelebi Oto Lastik',
-        description: 'Pendik ve Maltepe şubelerimizde 7/24 lastik değişimi, akü değişimi ve yol yardım hizmetleri.',
+        title: 'İletişim | Çelebi Oto Lastik',
+        description: 'Çelebi Oto Lastik Kaynarca ve Maltepe şubelerine telefon, e-posta veya harita üzerinden ulaşabilirsiniz.',
         site: '@celebiotolastik',
         creator: '@celebiotolastik',
         images: ['https://www.celebiotolastik.com/og-image.jpg'], //TODO: Logo görseli

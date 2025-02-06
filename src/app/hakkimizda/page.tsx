@@ -2,6 +2,10 @@ import Image from "next/image";
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 import React from "react";
+import { aboutMetadata } from "@/metadata/aboutMetadata";
+import { Metadata } from "next";
+
+export const metadata: Metadata = aboutMetadata;
 
 export default function About() {
     return (
