@@ -195,10 +195,101 @@ export const products: IProduct[] = [
         category: "Akü",
         items: [
             {
-                title: "Varta Silver Dynamic",
-                image: "https://example.com/varta.jpg",
-                description: "Uzun ömürlü ve güçlü marş basma performansı."
-            }
+                title: "Silver Dynamic AGM 550 901 054",
+                image: "aku/varta-silver-1.png",
+                description: "VARTA® Silver Dynamic AGM, benzersiz performans anlamına gelir: Geleneksel akülerden 3 kat daha uzun ömre sahip olan VARTA Silver Dynamic AGM, start-stop sistemli veya elektrikli araçlar gibi en yüksek enerji talebi olan araçlar için mükemmel bir seçimdir. Bunun nedeni daha ağır kullanım, soğuk kışlar, sıcak yazlar veya çok sayıda aksesuar ve ekipman kullanımı olabilir. Bu nedenle, AGM akülerle çalışan start-stop teknolojili yeni üretilen otomobillerin %70'inde VARTA Silver Dynamic AGM'yi bulacaksınız."
+            },
+            {
+                title: "Silver Dynamic AGM 560 901 068",
+                image: "aku/varta-silver-2.png",
+                description: "VARTA® Silver Dynamic AGM, benzersiz performans anlamına gelir: Geleneksel akülerden 3 kat daha uzun ömre sahip olan VARTA Silver Dynamic AGM, start-stop sistemli veya elektrikli araçlar gibi en yüksek enerji talebi olan araçlar için mükemmel bir seçimdir. Bunun nedeni daha ağır kullanım, soğuk kışlar, sıcak yazlar veya çok sayıda aksesuar ve ekipman kullanımı olabilir. Bu nedenle, AGM akülerle çalışan start-stop teknolojili yeni üretilen otomobillerin %70'inde VARTA Silver Dynamic AGM'yi bulacaksınız."
+            },
+            {
+                title: "Silver Dynamic AGM 570 901 076",
+                image: "aku/varta-silver-3.png",
+                description: "VARTA® Silver Dynamic AGM, benzersiz performans anlamına gelir: Geleneksel akülerden 3 kat daha uzun ömre sahip olan VARTA Silver Dynamic AGM, start-stop sistemli veya elektrikli araçlar gibi en yüksek enerji talebi olan araçlar için mükemmel bir seçimdir. Bunun nedeni daha ağır kullanım, soğuk kışlar, sıcak yazlar veya çok sayıda aksesuar ve ekipman kullanımı olabilir. Bu nedenle, AGM akülerle çalışan start-stop teknolojili yeni üretilen otomobillerin %70'inde VARTA Silver Dynamic AGM'yi bulacaksınız."
+            },
+            {
+                title: "Silver Dynamic AGM 580 901 080",
+                image: "aku/varta-silver-4.png",
+                description: "VARTA® Silver Dynamic AGM, benzersiz performans anlamına gelir: Geleneksel akülerden 3 kat daha uzun ömre sahip olan VARTA Silver Dynamic AGM, start-stop sistemli veya elektrikli araçlar gibi en yüksek enerji talebi olan araçlar için mükemmel bir seçimdir. Bunun nedeni daha ağır kullanım, soğuk kışlar, sıcak yazlar veya çok sayıda aksesuar ve ekipman kullanımı olabilir. Bu nedenle, AGM akülerle çalışan start-stop teknolojili yeni üretilen otomobillerin %70'inde VARTA Silver Dynamic AGM'yi bulacaksınız."
+            },
+            {
+                title: "Silver Dynamic AGM 595 901 085",
+                image: "aku/varta-silver-5.png",
+                description: "VARTA® Silver Dynamic AGM, benzersiz performans anlamına gelir: Geleneksel akülerden 3 kat daha uzun ömre sahip olan VARTA Silver Dynamic AGM, start-stop sistemli veya elektrikli araçlar gibi en yüksek enerji talebi olan araçlar için mükemmel bir seçimdir. Bunun nedeni daha ağır kullanım, soğuk kışlar, sıcak yazlar veya çok sayıda aksesuar ve ekipman kullanımı olabilir. Bu nedenle, AGM akülerle çalışan start-stop teknolojili yeni üretilen otomobillerin %70'inde VARTA Silver Dynamic AGM'yi bulacaksınız."
+            },
+            {
+                title: "Silver Dynamic AGM 605 901 095",
+                image: "aku/varta-silver-6.png",
+                description: "VARTA® Silver Dynamic AGM, benzersiz performans anlamına gelir: Geleneksel akülerden 3 kat daha uzun ömre sahip olan VARTA Silver Dynamic AGM, start-stop sistemli veya elektrikli araçlar gibi en yüksek enerji talebi olan araçlar için mükemmel bir seçimdir. Bunun nedeni daha ağır kullanım, soğuk kışlar, sıcak yazlar veya çok sayıda aksesuar ve ekipman kullanımı olabilir. Bu nedenle, AGM akülerle çalışan start-stop teknolojili yeni üretilen otomobillerin %70'inde VARTA Silver Dynamic AGM'yi bulacaksınız."
+            },
+            {
+                title: "Blue Dynamic EFB 550 500 055",
+                image: "aku/varta-blue-1.png",
+                description: "Yüksek performans uygulamaları ile üstün ve olağanüstü bir aküye sahip olmak için VARTA® Blue Dynamic EFB aküsünü seçin. Tek yolculukta motoru birden çok defa çalıştıran start-stop özellikli araçlara uygun olan, gelişmiş EFB teknolojisi sayesinde, VARTA® Blue Dynamic EFB aküleri geleneksel akülere göre iki misli daha yüksek bir dayanıklılık seviyesine sahiptir. İster zorlu bir sürüş programı, birden çok aksesuar ve araç donanımı olan bir araç, isterse de rejeneratif frenleme teknolojisine sahip olmayan start-stop özellikli bir araç olsun, normalden daha fazla enerji gereksinimi olan araçlar için VARTA® Blue Dynamic EFB aküsünü tercih edin."
+            },
+            {
+                title: "Blue Dynamic EFB 560 500 064",
+                image: "aku/varta-blue-2.png",
+                description: "Yüksek performans uygulamaları ile üstün ve olağanüstü bir aküye sahip olmak için VARTA® Blue Dynamic EFB aküsünü seçin. Tek yolculukta motoru birden çok defa çalıştıran start-stop özellikli araçlara uygun olan, gelişmiş EFB teknolojisi sayesinde, VARTA® Blue Dynamic EFB aküleri geleneksel akülere göre iki misli daha yüksek bir dayanıklılık seviyesine sahiptir. İster zorlu bir sürüş programı, birden çok aksesuar ve araç donanımı olan bir araç, isterse de rejeneratif frenleme teknolojisine sahip olmayan start-stop özellikli bir araç olsun, normalden daha fazla enerji gereksinimi olan araçlar için VARTA® Blue Dynamic EFB aküsünü tercih edin."
+            },
+            {
+                title: "Blue Dynamic EFB 565 500 065",
+                image: "aku/varta-blue-3.png",
+                description: "Yüksek performans uygulamaları ile üstün ve olağanüstü bir aküye sahip olmak için VARTA® Blue Dynamic EFB aküsünü seçin. Tek yolculukta motoru birden çok defa çalıştıran start-stop özellikli araçlara uygun olan, gelişmiş EFB teknolojisi sayesinde, VARTA® Blue Dynamic EFB aküleri geleneksel akülere göre iki misli daha yüksek bir dayanıklılık seviyesine sahiptir. İster zorlu bir sürüş programı, birden çok aksesuar ve araç donanımı olan bir araç, isterse de rejeneratif frenleme teknolojisine sahip olmayan start-stop özellikli bir araç olsun, normalden daha fazla enerji gereksinimi olan araçlar için VARTA® Blue Dynamic EFB aküsünü tercih edin."
+            },
+            {
+                title: "Blue Dynamic EFB 570 500 076",
+                image: "aku/varta-blue-4.png",
+                description: "Yüksek performans uygulamaları ile üstün ve olağanüstü bir aküye sahip olmak için VARTA® Blue Dynamic EFB aküsünü seçin. Tek yolculukta motoru birden çok defa çalıştıran start-stop özellikli araçlara uygun olan, gelişmiş EFB teknolojisi sayesinde, VARTA® Blue Dynamic EFB aküleri geleneksel akülere göre iki misli daha yüksek bir dayanıklılık seviyesine sahiptir. İster zorlu bir sürüş programı, birden çok aksesuar ve araç donanımı olan bir araç, isterse de rejeneratif frenleme teknolojisine sahip olmayan start-stop özellikli bir araç olsun, normalden daha fazla enerji gereksinimi olan araçlar için VARTA® Blue Dynamic EFB aküsünü tercih edin."
+            },
+            {
+                title: "Blue Dynamic EFB 575 500 073",
+                image: "aku/varta-blue-5.png",
+                description: "Yüksek performans uygulamaları ile üstün ve olağanüstü bir aküye sahip olmak için VARTA® Blue Dynamic EFB aküsünü seçin. Tek yolculukta motoru birden çok defa çalıştıran start-stop özellikli araçlara uygun olan, gelişmiş EFB teknolojisi sayesinde, VARTA® Blue Dynamic EFB aküleri geleneksel akülere göre iki misli daha yüksek bir dayanıklılık seviyesine sahiptir. İster zorlu bir sürüş programı, birden çok aksesuar ve araç donanımı olan bir araç, isterse de rejeneratif frenleme teknolojisine sahip olmayan start-stop özellikli bir araç olsun, normalden daha fazla enerji gereksinimi olan araçlar için VARTA® Blue Dynamic EFB aküsünü tercih edin."
+            },
+            {
+                title: "Blue Dynamic EFB 580 500 080",
+                image: "aku/varta-blue-6.png",
+                description: "Yüksek performans uygulamaları ile üstün ve olağanüstü bir aküye sahip olmak için VARTA® Blue Dynamic EFB aküsünü seçin. Tek yolculukta motoru birden çok defa çalıştıran start-stop özellikli araçlara uygun olan, gelişmiş EFB teknolojisi sayesinde, VARTA® Blue Dynamic EFB aküleri geleneksel akülere göre iki misli daha yüksek bir dayanıklılık seviyesine sahiptir. İster zorlu bir sürüş programı, birden çok aksesuar ve araç donanımı olan bir araç, isterse de rejeneratif frenleme teknolojisine sahip olmayan start-stop özellikli bir araç olsun, normalden daha fazla enerji gereksinimi olan araçlar için VARTA® Blue Dynamic EFB aküsünü tercih edin."
+            },
+            {
+                title: "Blue Dynamic EFB 595 500 085",
+                image: "aku/varta-blue-7.png",
+                description: "Yüksek performans uygulamaları ile üstün ve olağanüstü bir aküye sahip olmak için VARTA® Blue Dynamic EFB aküsünü seçin. Tek yolculukta motoru birden çok defa çalıştıran start-stop özellikli araçlara uygun olan, gelişmiş EFB teknolojisi sayesinde, VARTA® Blue Dynamic EFB aküleri geleneksel akülere göre iki misli daha yüksek bir dayanıklılık seviyesine sahiptir. İster zorlu bir sürüş programı, birden çok aksesuar ve araç donanımı olan bir araç, isterse de rejeneratif frenleme teknolojisine sahip olmayan start-stop özellikli bir araç olsun, normalden daha fazla enerji gereksinimi olan araçlar için VARTA® Blue Dynamic EFB aküsünü tercih edin."
+            },
+            {
+                title: "Blue Dynamic EFB JIS 565 501 065",
+                image: "aku/varta-blue-8.png",
+                description: "Yüksek performans uygulamaları ile üstün ve olağanüstü bir aküye sahip olmak için VARTA® Blue Dynamic EFB aküsünü seçin. Tek yolculukta motoru birden çok defa çalıştıran start-stop özellikli araçlara uygun olan, gelişmiş EFB teknolojisi sayesinde, VARTA® Blue Dynamic EFB aküleri geleneksel akülere göre iki misli daha yüksek bir dayanıklılık seviyesine sahiptir. İster zorlu bir sürüş programı, birden çok aksesuar ve araç donanımı olan bir araç, isterse de rejeneratif frenleme teknolojisine sahip olmayan start-stop özellikli bir araç olsun, normalden daha fazla enerji gereksinimi olan araçlar için VARTA® Blue Dynamic EFB aküsünü tercih edin."
+            },
+            {
+                title: "Blue Dynamic EFB JIS 572 501 076",
+                image: "aku/varta-blue-9.png",
+                description: "Yüksek performans uygulamaları ile üstün ve olağanüstü bir aküye sahip olmak için VARTA® Blue Dynamic EFB aküsünü seçin. Tek yolculukta motoru birden çok defa çalıştıran start-stop özellikli araçlara uygun olan, gelişmiş EFB teknolojisi sayesinde, VARTA® Blue Dynamic EFB aküleri geleneksel akülere göre iki misli daha yüksek bir dayanıklılık seviyesine sahiptir. İster zorlu bir sürüş programı, birden çok aksesuar ve araç donanımı olan bir araç, isterse de rejeneratif frenleme teknolojisine sahip olmayan start-stop özellikli bir araç olsun, normalden daha fazla enerji gereksinimi olan araçlar için VARTA® Blue Dynamic EFB aküsünü tercih edin."
+            },
+            {
+                title: "Blue Dynamic EFB JIS 585 501 080",
+                image: "aku/varta-blue-10.png",
+                description: "Yüksek performans uygulamaları ile üstün ve olağanüstü bir aküye sahip olmak için VARTA® Blue Dynamic EFB aküsünü seçin. Tek yolculukta motoru birden çok defa çalıştıran start-stop özellikli araçlara uygun olan, gelişmiş EFB teknolojisi sayesinde, VARTA® Blue Dynamic EFB aküleri geleneksel akülere göre iki misli daha yüksek bir dayanıklılık seviyesine sahiptir. İster zorlu bir sürüş programı, birden çok aksesuar ve araç donanımı olan bir araç, isterse de rejeneratif frenleme teknolojisine sahip olmayan start-stop özellikli bir araç olsun, normalden daha fazla enerji gereksinimi olan araçlar için VARTA® Blue Dynamic EFB aküsünü tercih edin."
+            },
+            {
+                title: "Promotive EFB 690 500 105",
+                image: "aku/varta-efb-1.png",
+                description: "Eşi benzeri olmayan VARTA® ProMotive EFB yüksek enerji gereksinimleri olan ticari araçlar için güçlü bir aküdür. Yüksek titreşim dayanıklılığıyla birlikte performansı, kesin güvenilirlik ve daha uzun bir hizmet süresi sağlar. Bu ağır ticari araç aküsü geniş kapsamlı otel işlevlerinin gittikçe artan gereksinimlerini yerine getirmek üzere geliştirilmiştir."
+            },
+            {
+                title: "Promotive EFB 740 500 120",
+                image: "aku/varta-efb-2.png",
+                description: "Eşi benzeri olmayan VARTA® ProMotive EFB yüksek enerji gereksinimleri olan ticari araçlar için güçlü bir aküdür. Yüksek titreşim dayanıklılığıyla birlikte performansı, kesin güvenilirlik ve daha uzun bir hizmet süresi sağlar. Bu ağır ticari araç aküsü geniş kapsamlı otel işlevlerinin gittikçe artan gereksinimlerini yerine getirmek üzere geliştirilmiştir."
+            },
+
+            {
+                title: "ProMotive AGM 710 901 120",
+                image: "aku/varta-agm-1.png",
+                description: "Verimli AGM teknolojisi sayesinde, ProMotive AGM ağır ticari araç aküsü, ağır ticari araçlara çok sayıda elektrik tüketicisinin kullanımı açısından yüksek bir güvenilirlik sağlar. Akünün yıpranmasına ve arıza süresine neden olmadan en yüksek beklentili uygulamaların ve park halinde soğutucu/ısıtıcı gibi enerji tüketen işlevlerin kullanılmasını sağlayan tek aküdür. Pazarda öncü ticari araç üreticileriyle birlikte geliştirilmiş olup gelecekte ticari araçlarda standart haline gelecek yenilikleri desteklemek üzere tasarlanmıştır."
+            },
         ]
     },
     {

@@ -6,7 +6,7 @@ import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 import { Autoplay, FreeMode } from 'swiper/modules';
 
-const brands = ["petlas", "bridgestone", "continental", "goodyear", "hankook", "laufenn", "michelin", "milestone", "pirelli"]
+const brands = ["petlas", "bridgestone", "varta", "continental", "goodyear", "hankook", "laufenn", "michelin", "milestone", "pirelli"]
 
 const Brands = () => {
     return (
