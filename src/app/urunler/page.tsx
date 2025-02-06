@@ -10,7 +10,7 @@ export default function Products() {
         <div className="flex flex-col gap-4 p-4 pb-8 mx-auto max-w-7xl sm:p-6 lg:p-8 md:pb-16">
             <h1 className="font-bold text-4xl">Ürünlerimiz</h1>
             <div className="flex flex-col md:flex-row gap-8">
-                <div className="w-full h-fit md:w-1/6 flex flex-col gap-3 p-4 rounded-lg bg-white">
+                <div className="w-full h-fit md:w-1/6 flex flex-col gap-3 p-4 rounded-lg bg-white shadow-lg">
                     <h3 className="text-xl font-bold border-b">Kategoriler</h3>
                     {products.map((category) => (
                         <button
@@ -35,7 +35,7 @@ export default function Products() {
                                     <Link
                                         href={`urunler/${slugify(product.title)}`}
                                         key={slugify(product.title)}
-                                        className="flex flex-col items-center gap-3 p-4 rounded-lg bg-white justify-end"
+                                        className="flex flex-col items-center gap-3 p-4 rounded-lg bg-white justify-end shadow-lg"
                                     >
                                         <img
                                             src={`/images/products/${product.image}`}

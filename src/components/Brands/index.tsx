@@ -10,7 +10,7 @@ const brands = ["petlas", "bridgestone", "continental", "goodyear", "hankook", "
 
 const Brands = () => {
     return (
-        <div className="w-full h-40 flex bg-white rounded-lg max-h-28">
+        <div className="w-full h-40 flex bg-white rounded-lg max-h-28 shadow-lg">
             <Swiper
                 slidesPerView={4}
                 spaceBetween={30}

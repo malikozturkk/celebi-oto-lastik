@@ -13,7 +13,7 @@ export default async function Services() {
                     <Link
                         href={`hizmetler/${slugify(service.title)}`}
                         key={slugify(service.title)}
-                        className="flex flex-col items-center gap-3 p-4 rounded-lg bg-white justify-end"
+                        className="flex flex-col items-center gap-3 p-4 rounded-lg bg-white justify-end shadow-lg"
                     >
                         <img
                             src={`/images/services/${slugify(service.title)}.jpg`}

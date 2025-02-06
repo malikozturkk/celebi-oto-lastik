@@ -53,6 +53,12 @@ export function getProductBySlug(slug: string): ProductWithCategory {
     return null;
 }
 
+export function getRandomProducts(products: IProduct[]): IProduct['items'][number][] {
+    const allItems = products.flatMap(product => product.items);
+    const shuffled = allItems.sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, 5);
+}
+
 export const services: IService[] = [
     {
         title: "7/24 Hizmet",
