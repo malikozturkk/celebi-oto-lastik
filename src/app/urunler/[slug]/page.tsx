@@ -12,9 +12,9 @@ export default async function Product({ params }: { params: Params }) {
     return (
         <div className="flex flex-col p-4 pb-8 gap-4 mx-auto max-w-7xl sm:p-6 lg:p-8 md:pb-16">
             <Link href="/urunler" className="flex items-center text-sm text-[#4b5563]">
-                <span className="hover:underline cursor-pointer">Yedek Parça, Aksesuar, Donanım & Tuning</span>
+                <span className="hover:underline cursor-pointer truncate">Yedek Parça, Aksesuar, Donanım & Tuning</span>
                 <span className="mx-2 text-[#9ca3af]">{">"}</span>
-                <span className="hover:underline cursor-pointer">Otomotiv Ekipmanları</span>
+                <span className="hover:underline cursor-pointer truncate">Otomotiv Ekipmanları</span>
                 <span className="mx-2 text-[#9ca3af]">{">"}</span>
                 <span className="font-semibold text-[#111827] hover:underline cursor-pointer">{product?.category}</span>
             </Link>
