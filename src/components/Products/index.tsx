@@ -23,7 +23,7 @@ const Products: React.FC<ProductProps> = ({ products }) => {
                         />
                         <h3 className="font-bold text-xl line-clamp-2 w-full">{product.title}</h3>
                         <p className="font-medium text-base text-[#687279] line-clamp-3 w-full">{product.description}</p>
-                        <button type="button" className="w-full inline-flex items-center justify-center px-5 py-3 font-semibold text-red transition-all duration-200 bg-white rounded-md border border-red text-red hover:bg-red hover:text-white">Detayları Gör</button>
+                        <button type="button" className="w-full inline-flex items-center justify-center px-5 py-3 font-semibold text-red transition-all duration-200 bg-white rounded-md border border-red hover:bg-red hover:text-white">Detayları Gör</button>
                     </Link>
                 ))}
             </div>
