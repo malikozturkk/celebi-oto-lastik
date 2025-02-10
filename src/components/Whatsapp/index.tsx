@@ -5,18 +5,18 @@ import React from "react"
 const Whatsapp = () => {
     const [open, setOpen] = React.useState(false)
     return (
-        <div className="fixed bottom-6 right-5 flex flex-col items-end justify-center gap-2">
+        <div className="fixed bottom-6 right-5 flex flex-col items-end justify-center gap-2 z-50">
             {open &&
-                <div className="bg-blue-600 text-white rounded-md p-6 flex flex-col gap-5">
+                <div className="bg-red text-white rounded-md p-6 flex flex-col gap-5">
                     <p className="text-base font-semibold tracking-widest text-white uppercase">Acil Yol Yardım</p>
                     <div className="flex flex-col gap-1">
                         <p className="text-xs font-semibold tracking-widest uppercase">Maltepe Şubemiz</p>
-                        <Link href="https://wa.me/905334333956" target="_blank" className="inline-flex items-center justify-center px-5 py-3 font-semibold text-blue-600 bg-white transition-all duration-200 rounded-md gap-1">
+                        <Link href="https://wa.me/905334333956" target="_blank" className="inline-flex items-center justify-center px-5 py-3 font-semibold text-red bg-white transition-all duration-200 rounded-md gap-1">
                             <svg
                                 width={20}
                                 height={20}
                                 className="min-w-5"
-                                xmlns="http://www.w3.org/2000/svg" fill="#2563EB" viewBox="-4 0 32 32">
+                                xmlns="http://www.w3.org/2000/svg" fill="#e31e24" viewBox="-4 0 32 32">
                                 <g>
                                     <g
                                         id="Page-1"
@@ -25,7 +25,7 @@ const Whatsapp = () => {
                                         stroke="none"
                                         strokeWidth="1"
                                     >
-                                        <g fill="#2563EB" transform="translate(-106 -413)">
+                                        <g fill="#e31e24" transform="translate(-106 -413)">
                                             <path
                                                 id="location"
                                                 d="M118 422a3 3 0 1 0 0 6 3 3 0 0 0 0-6m0 8a5 5 0 1 1 0-10 5 5 0 0 1 0 10m0-17c-6.627 0-12 5.373-12 12 0 5.018 10.005 20.011 12 20 1.964.011 12-15.05 12-20 0-6.627-5.373-12-12-12"
@@ -39,12 +39,12 @@ const Whatsapp = () => {
                     </div>
                     <div className="flex flex-col gap-1">
                         <p className="text-xs font-semibold tracking-widest uppercase">Kaynarca Şubemiz</p>
-                        <Link href="https://wa.me/905331601100" target="_blank" className="inline-flex items-center justify-center px-5 py-3 font-semibold text-blue-600 bg-white transition-all duration-200 rounded-md gap-1">
+                        <Link href="https://wa.me/905331601100" target="_blank" className="inline-flex items-center justify-center px-5 py-3 font-semibold text-red bg-white transition-all duration-200 rounded-md gap-1">
                             <svg
                                 width={20}
                                 height={20}
                                 className="min-w-5"
-                                xmlns="http://www.w3.org/2000/svg" fill="#2563EB" viewBox="-4 0 32 32">
+                                xmlns="http://www.w3.org/2000/svg" fill="#e31e24" viewBox="-4 0 32 32">
                                 <g>
                                     <g
                                         id="Page-1"
@@ -53,7 +53,7 @@ const Whatsapp = () => {
                                         stroke="none"
                                         strokeWidth="1"
                                     >
-                                        <g fill="#2563EB" transform="translate(-106 -413)">
+                                        <g fill="#e31e24" transform="translate(-106 -413)">
                                             <path
                                                 id="location"
                                                 d="M118 422a3 3 0 1 0 0 6 3 3 0 0 0 0-6m0 8a5 5 0 1 1 0-10 5 5 0 0 1 0 10m0-17c-6.627 0-12 5.373-12 12 0 5.018 10.005 20.011 12 20 1.964.011 12-15.05 12-20 0-6.627-5.373-12-12-12"

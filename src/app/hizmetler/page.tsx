@@ -25,7 +25,7 @@ export default async function Services() {
                         />
                         <h3 className="font-bold text-xl line-clamp-2 w-full">{service.title}</h3>
                         <p className="font-medium text-base text-[#687279] line-clamp-3 w-full">{service.description}</p>
-                        <button type="button" className="w-full inline-flex items-center justify-center px-5 py-3 font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700">Devamını Gör</button>
+                        <button type="button" className="w-full inline-flex items-center justify-center px-5 py-3 font-semibold text-white transition-all duration-200 bg-red rounded-md hover:bg-hoverRed focus:bg-hoverRed">Devamını Gör</button>
                     </Link>
                 ))}
             </div>

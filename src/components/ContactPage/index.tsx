@@ -10,10 +10,10 @@ const ContactPage = () => {
             <div className="flex flex-col md:flex-row">
                 <div className="flex flex-col w-full md:w-1/3 p-6">
                     <div className="flex flex-col border-b border-[#e5e5e5] gap-6 pb-4">
-                        <h3 className="text-blue-600 text-2xl font-bold">MALTEPE ÇELEBİ OTO LASTİK</h3>
+                        <h3 className="text-red text-2xl font-bold">MALTEPE ÇELEBİ OTO LASTİK</h3>
                         <div className="flex items-center justify-center gap-6">
                             <Link href="tel:05334333956" className="flex flex-col gap-2 items-center justify-center">
-                                <span className="bg-blue-600 p-2.5 rounded-full flex items-center justify-center">
+                                <span className="duration-200 bg-red p-2.5 rounded-full flex items-center justify-center hover:bg-hoverRed">
                                     <svg
                                         width={20}
                                         height={20}
@@ -27,7 +27,7 @@ const ContactPage = () => {
                                 <p className="text-xs">Ara</p>
                             </Link>
                             <Link target="_blank" href="mailto:celebilastik@gmail.com" className="flex flex-col gap-2 items-center justify-center">
-                                <span className="bg-blue-600 p-2.5 rounded-full flex items-center justify-center">
+                                <span className="duration-200 bg-red p-2.5 rounded-full flex items-center justify-center hover:bg-hoverRed">
                                     <svg
                                         className="min-w-5"
                                         width={20}
@@ -46,7 +46,7 @@ const ContactPage = () => {
                                 <p className="text-xs">Email</p>
                             </Link>
                             <Link target="_blank" href="https://www.google.com/maps/dir//%C3%87elebi+Lastik+Otomotiv+Tur.+San.+ve+Tic.+Ltd.+%C5%9Eti,+Ba%C4%9Flarba%C5%9F%C4%B1,+Atat%C3%BCrk+Caddesi,+Maltepe%2F%C4%B0stanbul/@40.9825372,29.1407879,13z/data=!4m9!4m8!1m1!4e2!1m5!1m1!1s0x14cac7a4829d6c73:0x50bd5a804d2afa1d!2m2!1d29.1369721!2d40.9326779?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D" className="flex flex-col gap-2 items-center justify-center">
-                                <span className="bg-blue-600 p-2.5 rounded-full flex items-center justify-center">
+                                <span className="duration-200 bg-red p-2.5 rounded-full flex items-center justify-center hover:bg-hoverRed">
                                     <svg
                                         width={20}
                                         height={20}
@@ -76,14 +76,14 @@ const ContactPage = () => {
                     </div>
                     <div className="">
                         <button className="py-4 w-full flex justify-between items-center" onClick={() => setShowInfo({ maltepe: !showInfo.maltepe, kaynarca: showInfo.kaynarca })}>
-                            <h4 className="text-blue-600 text-lg font-bold">Bilgi</h4>
+                            <h4 className="text-red text-lg font-bold">Bilgi</h4>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className={`${showInfo.maltepe ? "rotate-90" : "rotate-0"} transform duration-300`}
-                                fill="#2563EB"
+                                fill="#e31e24"
                                 width={16}
                                 height={16}
-                                stroke="#2563EB"
+                                stroke="#e31e24"
                                 viewBox="0 0 1024 1024"
                             >
                                 <path
@@ -99,7 +99,7 @@ const ContactPage = () => {
                                             width={20}
                                             height={20}
                                             className="min-w-5"
-                                            xmlns="http://www.w3.org/2000/svg" fill="#2563EB" viewBox="-4 0 32 32">
+                                            xmlns="http://www.w3.org/2000/svg" fill="#e31e24" viewBox="-4 0 32 32">
                                             <g>
                                                 <g
                                                     fill="none"
@@ -107,7 +107,7 @@ const ContactPage = () => {
                                                     stroke="none"
                                                     strokeWidth="1"
                                                 >
-                                                    <g fill="#2563EB" transform="translate(-106 -413)">
+                                                    <g fill="#e31e24" transform="translate(-106 -413)">
                                                         <path
                                                             id="location"
                                                             d="M118 422a3 3 0 1 0 0 6 3 3 0 0 0 0-6m0 8a5 5 0 1 1 0-10 5 5 0 0 1 0 10m0-17c-6.627 0-12 5.373-12 12 0 5.018 10.005 20.011 12 20 1.964.011 12-15.05 12-20 0-6.627-5.373-12-12-12"
@@ -118,7 +118,7 @@ const ContactPage = () => {
                                         </svg>
                                         <div className="flex flex-col gap-3 w-full">
                                             <p className="text-base font-bold leading-4">Adres</p>
-                                            <Link href="https://maps.app.goo.gl/LGGgweapckeGNDyh7" target="_blank" className="flex leading-5 text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600">Bağlarbaşı Mahallesi Atatürk Caddesi No 136/A Maltepe/İstanbul</Link>
+                                            <Link href="https://maps.app.goo.gl/LGGgweapckeGNDyh7" target="_blank" className="flex leading-5 text-base text-black transition-all duration-200 hover:text-red focus:text-red">Bağlarbaşı Mahallesi Atatürk Caddesi No 136/A Maltepe/İstanbul</Link>
                                         </div>
                                     </div>
 
@@ -129,13 +129,13 @@ const ContactPage = () => {
                                             className="min-w-5"
                                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
                                             <path
-                                                fill="#2563EB"
+                                                fill="#e31e24"
                                                 d="M1 5V1h6v4L4.5 7.5l4 4L11 9h4v6h-4C5.477 15 1 10.523 1 5"
                                             ></path>
                                         </svg>
                                         <div className="flex flex-col gap-3 w-full">
                                             <p className="text-base font-bold leading-4">Telefon</p>
-                                            <Link href="tel:05334333956" target="_blank" className="flex text-base leading-5 text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600">0533 433 39 56</Link>
+                                            <Link href="tel:05334333956" target="_blank" className="flex text-base leading-5 text-black transition-all duration-200 hover:text-red focus:text-red">0533 433 39 56</Link>
                                         </div>
                                     </div>
 
@@ -144,7 +144,7 @@ const ContactPage = () => {
                                             width={20}
                                             height={20}
                                             className="min-w-5"
-                                            xmlns="http://www.w3.org/2000/svg" fill="#2563EB" viewBox="-4 0 32 32">
+                                            xmlns="http://www.w3.org/2000/svg" fill="#e31e24" viewBox="-4 0 32 32">
                                             <g>
                                                 <g
                                                     id="Page-1"
@@ -153,7 +153,7 @@ const ContactPage = () => {
                                                     stroke="none"
                                                     strokeWidth="1"
                                                 >
-                                                    <g fill="#2563EB" transform="translate(-106 -413)">
+                                                    <g fill="#e31e24" transform="translate(-106 -413)">
                                                         <path
                                                             id="location"
                                                             d="M118 422a3 3 0 1 0 0 6 3 3 0 0 0 0-6m0 8a5 5 0 1 1 0-10 5 5 0 0 1 0 10m0-17c-6.627 0-12 5.373-12 12 0 5.018 10.005 20.011 12 20 1.964.011 12-15.05 12-20 0-6.627-5.373-12-12-12"
@@ -193,10 +193,10 @@ const ContactPage = () => {
             <div className="flex flex-col md:flex-row">
                 <div className="flex flex-col w-full md:w-1/3 p-6">
                     <div className="flex flex-col border-b border-[#e5e5e5] gap-6 pb-4">
-                        <h3 className="text-blue-600 text-2xl font-bold">KAYNARCA ÇELEBİ OTO LASTİK</h3>
+                        <h3 className="text-red text-2xl font-bold">KAYNARCA ÇELEBİ OTO LASTİK</h3>
                         <div className="flex items-center justify-center gap-6">
                             <Link href="tel:05331601100" className="flex flex-col gap-2 items-center justify-center">
-                                <span className="bg-blue-600 p-2.5 rounded-full flex items-center justify-center">
+                                <span className="duration-200 bg-red p-2.5 rounded-full flex items-center justify-center hover:bg-hoverRed">
                                     <svg
                                         width={20}
                                         height={20}
@@ -210,7 +210,7 @@ const ContactPage = () => {
                                 <p className="text-xs">Ara</p>
                             </Link>
                             <Link target="_blank" href="mailto:celebilastik@gmail.com" className="flex flex-col gap-2 items-center justify-center">
-                                <span className="bg-blue-600 p-2.5 rounded-full flex items-center justify-center">
+                                <span className="duration-200 bg-red p-2.5 rounded-full flex items-center justify-center hover:bg-hoverRed">
                                     <svg
                                         className="min-w-5"
                                         width={20}
@@ -229,7 +229,7 @@ const ContactPage = () => {
                                 <p className="text-xs">Email</p>
                             </Link>
                             <Link target="_blank" href="https://www.google.com/maps/dir/40.9825372,29.1407879/%C3%87elebi+Lastik+Otomotiv+-+Kaynarca,+Kaynarca,+D-100+Yanyolu,+Pendik%2F%C4%B0stanbul/@40.9313351,29.1474552,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x14cadc9e7355e73f:0x500feb4d8ac2768b!2m2!1d29.2607681!2d40.8781706?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D" className="flex flex-col gap-2 items-center justify-center">
-                                <span className="bg-blue-600 p-2.5 rounded-full flex items-center justify-center">
+                                <span className="duration-200 bg-red p-2.5 rounded-full flex items-center justify-center hover:bg-hoverRed">
                                     <svg
                                         width={20}
                                         height={20}
@@ -259,14 +259,14 @@ const ContactPage = () => {
                     </div>
                     <div className="">
                         <button className="py-4 w-full flex justify-between items-center" onClick={() => setShowInfo({ maltepe: showInfo.maltepe, kaynarca: !showInfo.kaynarca })}>
-                            <h4 className="text-blue-600 text-lg font-bold">Bilgi</h4>
+                            <h4 className="text-red text-lg font-bold">Bilgi</h4>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className={`${showInfo.kaynarca ? "rotate-90" : "rotate-0"} transform duration-300`}
-                                fill="#2563EB"
+                                fill="#e31e24"
                                 width={16}
                                 height={16}
-                                stroke="#2563EB"
+                                stroke="#e31e24"
                                 viewBox="0 0 1024 1024"
                             >
                                 <path
@@ -282,7 +282,7 @@ const ContactPage = () => {
                                             width={20}
                                             height={20}
                                             className="min-w-5"
-                                            xmlns="http://www.w3.org/2000/svg" fill="#2563EB" viewBox="-4 0 32 32">
+                                            xmlns="http://www.w3.org/2000/svg" fill="#e31e24" viewBox="-4 0 32 32">
                                             <g>
                                                 <g
                                                     fill="none"
@@ -290,7 +290,7 @@ const ContactPage = () => {
                                                     stroke="none"
                                                     strokeWidth="1"
                                                 >
-                                                    <g fill="#2563EB" transform="translate(-106 -413)">
+                                                    <g fill="#e31e24" transform="translate(-106 -413)">
                                                         <path
                                                             id="location"
                                                             d="M118 422a3 3 0 1 0 0 6 3 3 0 0 0 0-6m0 8a5 5 0 1 1 0-10 5 5 0 0 1 0 10m0-17c-6.627 0-12 5.373-12 12 0 5.018 10.005 20.011 12 20 1.964.011 12-15.05 12-20 0-6.627-5.373-12-12-12"
@@ -301,7 +301,7 @@ const ContactPage = () => {
                                         </svg>
                                         <div className="flex flex-col gap-3 w-full">
                                             <p className="text-base font-bold leading-4">Adres</p>
-                                            <Link href="https://maps.app.goo.gl/C8qKaNwyayf6X43YA" target="_blank" className="flex leading-5 text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600">Kaynarca Mahallesi E-5 Yanyol Caddesi No 88 Pendik/İstanbul</Link>
+                                            <Link href="https://maps.app.goo.gl/C8qKaNwyayf6X43YA" target="_blank" className="flex leading-5 text-base text-black transition-all duration-200 hover:text-red focus:text-red">Kaynarca Mahallesi E-5 Yanyol Caddesi No 88 Pendik/İstanbul</Link>
                                         </div>
                                     </div>
 
@@ -312,13 +312,13 @@ const ContactPage = () => {
                                             className="min-w-5"
                                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
                                             <path
-                                                fill="#2563EB"
+                                                fill="#e31e24"
                                                 d="M1 5V1h6v4L4.5 7.5l4 4L11 9h4v6h-4C5.477 15 1 10.523 1 5"
                                             ></path>
                                         </svg>
                                         <div className="flex flex-col gap-3 w-full">
                                             <p className="text-base font-bold leading-4">Telefon</p>
-                                            <Link href="tel:05331601100" target="_blank" className="flex text-base leading-5 text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600">0533 160 11 00</Link>
+                                            <Link href="tel:05331601100" target="_blank" className="flex text-base leading-5 text-black transition-all duration-200 hover:text-red focus:text-red">0533 160 11 00</Link>
                                         </div>
                                     </div>
 
@@ -327,7 +327,7 @@ const ContactPage = () => {
                                             width={20}
                                             height={20}
                                             className="min-w-5"
-                                            xmlns="http://www.w3.org/2000/svg" fill="#2563EB" viewBox="-4 0 32 32">
+                                            xmlns="http://www.w3.org/2000/svg" fill="#e31e24" viewBox="-4 0 32 32">
                                             <g>
                                                 <g
                                                     id="Page-1"
@@ -336,7 +336,7 @@ const ContactPage = () => {
                                                     stroke="none"
                                                     strokeWidth="1"
                                                 >
-                                                    <g fill="#2563EB" transform="translate(-106 -413)">
+                                                    <g fill="#e31e24" transform="translate(-106 -413)">
                                                         <path
                                                             id="location"
                                                             d="M118 422a3 3 0 1 0 0 6 3 3 0 0 0 0-6m0 8a5 5 0 1 1 0-10 5 5 0 0 1 0 10m0-17c-6.627 0-12 5.373-12 12 0 5.018 10.005 20.011 12 20 1.964.011 12-15.05 12-20 0-6.627-5.373-12-12-12"

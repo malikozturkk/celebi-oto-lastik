@@ -11,12 +11,12 @@ export default async function Product({ params }: { params: Params }) {
     const product: ProductWithCategory = getProductBySlug(slug)
     return (
         <div className="flex flex-col p-4 pb-8 gap-4 mx-auto max-w-7xl sm:p-6 lg:p-8 md:pb-16">
-            <Link href="/urunler" className="flex items-center text-sm text-gray-600">
+            <Link href="/urunler" className="flex items-center text-sm text-[#4b5563]">
                 <span className="hover:underline cursor-pointer">Yedek Parça, Aksesuar, Donanım & Tuning</span>
-                <span className="mx-2 text-gray-400">{">"}</span>
+                <span className="mx-2 text-[#9ca3af]">{">"}</span>
                 <span className="hover:underline cursor-pointer">Otomotiv Ekipmanları</span>
-                <span className="mx-2 text-gray-400">{">"}</span>
-                <span className="font-semibold text-gray-900 hover:underline cursor-pointer">{product?.category}</span>
+                <span className="mx-2 text-[#9ca3af]">{">"}</span>
+                <span className="font-semibold text-[#111827] hover:underline cursor-pointer">{product?.category}</span>
             </Link>
 
             <div className="flex flex-col md:flex-row gap-8">
@@ -39,11 +39,11 @@ export default async function Product({ params }: { params: Params }) {
                             <div className="flex flex-col gap-4">
                                 <h3 className="text-lg font-semibold">Detaylı Bilgi / Rezervasyon İçin Bize Ulaşın</h3>
                                 <div className="flex items-center gap-4 md:gap-8 flex-col md:flex-row">
-                                    <Link href="tel:05334333956" type="submit" className="inline-flex items-center justify-center px-5 py-3 gap-2 font-semibold text-white transition-all duration-200 w-full md:w-1/2 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700">
+                                    <Link href="tel:05334333956" type="submit" className="inline-flex items-center justify-center px-5 py-3 gap-2 font-semibold text-white transition-all duration-200 w-full md:w-1/2 bg-red rounded-md hover:bg-hoverRed focus:bg-hoverRed">
                                         <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#fff" d="M1 5V1h6v4L4.5 7.5l4 4L11 9h4v6h-4C5.477 15 1 10.523 1 5"></path></svg>
                                         Maltepe Şubesi
                                     </Link>
-                                    <Link href="tel:05331601100" type="submit" className="inline-flex items-center justify-center px-5 py-3 gap-2 font-semibold text-white transition-all duration-200 w-full md:w-1/2 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700">
+                                    <Link href="tel:05331601100" type="submit" className="inline-flex items-center justify-center px-5 py-3 gap-2 font-semibold text-white transition-all duration-200 w-full md:w-1/2 bg-red rounded-md hover:bg-hoverRed focus:bg-hoverRed">
                                         <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#fff" d="M1 5V1h6v4L4.5 7.5l4 4L11 9h4v6h-4C5.477 15 1 10.523 1 5"></path></svg>
                                         Kaynarca Şubesi
                                     </Link>

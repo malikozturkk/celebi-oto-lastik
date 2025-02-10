@@ -13,6 +13,11 @@ export default {
         foreground: "var(--foreground)",
       },
     },
+    colors: {
+      red: "#e31e24",
+      hoverRed: "#c2191f",
+      white: "#fff"
+    },
   },
   plugins: [
     require('@tailwindcss/line-clamp'),

@@ -6,7 +6,7 @@ const ProductsCategory = ({ category }: any) => {
         <button
             key={category.category}
             type="button"
-            className="font-bold text-sm text-start hover:text-blue-600"
+            className="font-bold text-sm text-start hover:text-red"
             onClick={(e) => {
                 e.preventDefault();
                 document.getElementById(slugify(category.category))?.scrollIntoView({ behavior: "smooth" });
