@@ -13,7 +13,6 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     return {
         title: `${product?.item.title} | Çelebi Oto Lastik`,
         description: product?.item.description,
-        themeColor: '#e31e24',
         alternates: {
             canonical: `https://celebiotolastik.com/urunler/${slug}`,
         },
@@ -27,7 +26,6 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
         ],
         creator: 'Çelebi Oto Lastik',
         publisher: 'Çelebi Oto Lastik',
-        colorScheme: 'light dark',
         applicationName: 'Çelebi Oto Lastik',
         appleWebApp: {
             capable: true,
@@ -53,7 +51,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
             siteName: "Çelebi Oto Lastik",
             images: [
                 {
-                    url: `https://celebiotolastik.com/images/products/${product?.item.image}`,
+                    url: '/images/logo.svg',
                     alt: product?.item.title,
                 },
             ],
@@ -66,12 +64,12 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
             description: product?.item.description,
             site: '@celebiotolastik',
             creator: '@celebiotolastik',
-            images: [`https://celebiotolastik.com/images/products/${product?.item.image}`],
+            images: ['/images/logo.svg'],
         },
         icons: {
-            icon: `https://celebiotolastik.com/images/products/${product?.item.image}`,
-            shortcut: `https://celebiotolastik.com/images/products/${product?.item.image}`,
-            apple: `https://celebiotolastik.com/images/products/${product?.item.image}`,
+            icon: '/images/logo.svg',
+            shortcut: '/images/logo.svg',
+            apple: '/images/logo.svg',
         },
         other: {
             'viewport': 'width=device-width, initial-scale=1.0',

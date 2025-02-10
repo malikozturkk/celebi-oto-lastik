@@ -3,7 +3,6 @@ import { Metadata } from 'next';
 export const contactMetadata: Metadata = {
     title: "İletişim | Çelebi Oto Lastik - Kaynarca ve Maltepe Şubeleri",
     description: "Çelebi Oto Lastik Kaynarca ve Maltepe şubelerimize iletişim numaralarımız, konum bilgileri, e-posta adresimiz ve harita üzerinden kolayca ulaşabilirsiniz.",
-    themeColor: '#e31e24',
     alternates: {
         canonical: 'https://celebiotolastik.com/iletisim',
     },
@@ -17,7 +16,6 @@ export const contactMetadata: Metadata = {
     ],
     creator: 'Çelebi Oto Lastik',
     publisher: 'Çelebi Oto Lastik',
-    colorScheme: 'light dark',
     applicationName: 'Çelebi Oto Lastik',
     appleWebApp: {
         capable: true,

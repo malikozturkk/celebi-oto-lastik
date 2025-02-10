@@ -3,7 +3,6 @@ import { Metadata } from 'next';
 export const homeMetadata: Metadata = {
     title: "Çelebi Oto Lastik | 7/24 Lastik, Jant, Akü Değişimi ve Yol Yardım Hizmeti",
     description: 'Çelebi Oto Lastik ile Maltepe Bağlarbaşı ve Pendik Kaynarca şubelerimizde 7/24 lastik değişimi, jant değişimi/düzeltme, akü değişimi ve yol yardım hizmetlerinden faydalanın.',
-    themeColor: '#e31e24',
     alternates: {
         canonical: 'https://celebiotolastik.com/',
     },
@@ -20,7 +19,6 @@ export const homeMetadata: Metadata = {
     ],
     creator: 'Çelebi Oto Lastik',
     publisher: 'Çelebi Oto Lastik',
-    colorScheme: 'light dark',
     applicationName: 'Çelebi Oto Lastik',
     appleWebApp: {
         capable: true,

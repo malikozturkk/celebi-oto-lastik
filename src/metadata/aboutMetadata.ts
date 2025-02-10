@@ -3,7 +3,6 @@ import { Metadata } from 'next';
 export const aboutMetadata: Metadata = {
     title: "Hakkımızda | Çelebi Oto Lastik - Güvenilir ve Profesyonel Hizmet",
     description: "Çelebi Oto Lastik olarak, Pendik Kaynarca ve Maltepe Bağlarbaşı şubelerimizde güvenilir ve profesyonel lastik değişimi, jant düzeltme, akü değişimi ve yol yardım hizmetleri sunuyoruz.",
-    themeColor: '#e31e24',
     alternates: {
         canonical: 'https://celebiotolastik.com/hakkimizda',
     },
@@ -17,7 +16,6 @@ export const aboutMetadata: Metadata = {
     ],
     creator: 'Çelebi Oto Lastik',
     publisher: 'Çelebi Oto Lastik',
-    colorScheme: 'light dark',
     applicationName: 'Çelebi Oto Lastik',
     appleWebApp: {
         capable: true,

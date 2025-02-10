@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { homeMetadata } from '@/metadata/homeMetadata';
 import { Metadata } from "next";
 import Brands from "@/components/Brands";

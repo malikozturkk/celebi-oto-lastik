@@ -1,10 +1,86 @@
 import { getServiceBySlug, IService, slugify } from "@/data/services";
+import { Metadata } from "next";
 import Link from "next/link";
 import React from "react";
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
 type Params = Promise<{ slug: string }>
+
+export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
+    const { slug } = await params;
+    const service: IService | undefined = getServiceBySlug(slug);
+    return {
+        title: `${service?.title} | Çelebi Oto Lastik`,
+        description: service?.description,
+        alternates: {
+            canonical: `https://celebiotolastik.com/hizmetler/${slug}`,
+        },
+        keywords: [
+            service?.title as string,
+            "oto lastik hizmetleri", "lastik değişimi", "jant düzeltme", "akü değişimi", "lastik tamiri",
+            "mobil lastik hizmeti", "7/24 yol yardım", "acil lastik değişimi", "lastik oteli"
+        ],
+        authors: [
+            { name: 'Çelebi Oto Lastik', url: 'https://celebiotolastik.com/' }
+        ],
+        creator: 'Çelebi Oto Lastik',
+        publisher: 'Çelebi Oto Lastik',
+        applicationName: 'Çelebi Oto Lastik',
+        appleWebApp: {
+            capable: true,
+            statusBarStyle: 'default',
+            title: `${service?.title} | Çelebi Oto Lastik`,
+        },
+        robots: {
+            index: true,
+            follow: true,
+            nocache: false,
+            googleBot: {
+                index: true,
+                follow: true,
+                "max-snippet": -1,
+                "max-image-preview": 'large',
+                "max-video-preview": -1,
+            },
+        },
+        openGraph: {
+            title: `${service?.title} | Çelebi Oto Lastik`,
+            description: service?.description,
+            url: `https://celebiotolastik.com/hizmetler/${slug}`,
+            siteName: "Çelebi Oto Lastik",
+            images: [
+                {
+                    url: `/images/services/${slug}.jpg`,
+                    alt: service?.title,
+                },
+            ],
+            locale: "tr_TR",
+            type: "article",
+        },
+        twitter: {
+            card: "summary_large_image",
+            title: `${service?.title} | Çelebi Oto Lastik`,
+            description: service?.description,
+            site: '@celebiotolastik',
+            creator: '@celebiotolastik',
+            images: [`/images/services/${slug}.jpg`],
+        },
+        icons: {
+            icon: '/images/logo.svg',
+            shortcut: '/images/logo.svg',
+            apple: '/images/logo.svg',
+        },
+        other: {
+            'viewport': 'width=device-width, initial-scale=1.0',
+            'searchAction': JSON.stringify({
+                target: 'https://celebiotolastik.com/search?q={search_term_string}',
+                queryInput: 'required name=search_term_string',
+            }),
+        },
+    };
+}
+
 
 export default async function Service({ params }: { params: Params }) {
     const { slug } = await params;

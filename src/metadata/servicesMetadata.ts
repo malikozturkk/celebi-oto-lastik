@@ -3,7 +3,6 @@ import { Metadata } from 'next';
 export const servicesMetadata: Metadata = {
     title: "Hizmetlerimiz | Çelebi Oto Lastik - 7/24 Lastik, Jant, Akü ve Yol Yardım",
     description: "Çelebi Oto Lastik olarak 7/24 lastik değişimi, jant düzeltme, akü değişimi, lastik oteli ve mobil hizmetler sunuyoruz. Kaynarca ve Maltepe şubelerimizde profesyonel hizmet alın.",
-    themeColor: '#e31e24',
     alternates: {
         canonical: 'https://celebiotolastik.com/hizmetler',
     },
@@ -17,7 +16,6 @@ export const servicesMetadata: Metadata = {
     ],
     creator: 'Çelebi Oto Lastik',
     publisher: 'Çelebi Oto Lastik',
-    colorScheme: 'light dark',
     applicationName: 'Çelebi Oto Lastik',
     appleWebApp: {
         capable: true,

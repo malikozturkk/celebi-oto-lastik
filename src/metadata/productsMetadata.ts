@@ -3,7 +3,6 @@ import { Metadata } from 'next';
 export const productsMetadata: Metadata = {
     title: "Ürünlerimiz | Çelebi Oto Lastik - Lastik, Akü, Jant ve Jant & Lastik Takımları",
     description: "Çelebi Oto Lastik olarak kaliteli lastik, akü, jant ve jant & lastik takımları sunuyoruz. Uygun fiyatlarla güvenilir ürünler için hemen inceleyin.",
-    themeColor: '#e31e24',
     alternates: {
         canonical: 'https://celebiotolastik.com/urunler',
     },
@@ -17,7 +16,6 @@ export const productsMetadata: Metadata = {
     ],
     creator: 'Çelebi Oto Lastik',
     publisher: 'Çelebi Oto Lastik',
-    colorScheme: 'light dark',
     applicationName: 'Çelebi Oto Lastik',
     appleWebApp: {
         capable: true,
