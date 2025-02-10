@@ -3,20 +3,20 @@ import { Metadata } from 'next';
 export const homeMetadata: Metadata = {
     title: "Çelebi Oto Lastik | 7/24 Lastik, Jant, Akü Değişimi ve Yol Yardım Hizmeti",
     description: 'Çelebi Oto Lastik ile Maltepe Bağlarbaşı ve Pendik Kaynarca şubelerimizde 7/24 lastik değişimi, jant değişimi/düzeltme, akü değişimi ve yol yardım hizmetlerinden faydalanın.',
+    themeColor: '#e31e24',
     alternates: {
-        canonical: 'https://www.celebiotolastik.com/',
+        canonical: 'https://celebiotolastik.com/',
     },
     keywords: [
         'oto lastik', 'lastik değişimi', 'jant değiştirme', 'jant düzeltme', 'akü değişimi', 'lastik oteli', 'mobil lastik hizmeti',
-        'pendik kaynarca lastikçi', 'maltepe bağlarbaşı lastikçi', '7/24 yol yardım', 'lastik tamiri',
-        'acil lastik değişimi', 'pendik lastik oteli', 'maltepe lastik değişimi', 'oto yol yardım',
+        '7/24 yol yardım', 'lastik tamiri', 'acil lastik değişimi', 'pendik lastik oteli', 'maltepe lastik değişimi', 'oto yol yardım',
         'jant tamiri', 'akü', 'lastik', 'jant', 'yol yardım', 'oto lastik tamiri', 'kaynarca lastik', 'pendik lastik',
-        'bağlarbaşı lastik', 'pendik lastik', 'kaynarca yol yardım', 'pendik yol yardım', 'bağlarbaşı yol yardım', 'maltepe yol yardım',
-        'sıfır lastik', 'ikinci el lastik', 'sıfır jant', 'ikici el jant', 'celebi oto lastik', 'celebi lastik maltepe', 'celebi lastik kaynarca',
+        'bağlarbaşı lastik', 'kaynarca yol yardım', 'pendik yol yardım', 'bağlarbaşı yol yardım', 'maltepe yol yardım',
+        'sıfır lastik', 'ikinci el lastik', 'sıfır jant', 'ikinci el jant', 'celebi oto lastik', 'celebi lastik maltepe', 'celebi lastik kaynarca',
         'celebi yol yardım kaynarca', 'celebi yol yardım maltepe', 'celebi yol yardım'
     ],
     authors: [
-        { name: 'Çelebi Oto Lastik', url: 'https://www.celebiotolastik.com' }
+        { name: 'Çelebi Oto Lastik', url: 'https://celebiotolastik.com/' }
     ],
     creator: 'Çelebi Oto Lastik',
     publisher: 'Çelebi Oto Lastik',
@@ -24,7 +24,7 @@ export const homeMetadata: Metadata = {
     applicationName: 'Çelebi Oto Lastik',
     appleWebApp: {
         capable: true,
-        statusBarStyle: 'black-translucent',
+        statusBarStyle: 'default',
         title: 'Çelebi Oto Lastik',
     },
     robots: {
@@ -42,11 +42,11 @@ export const homeMetadata: Metadata = {
     openGraph: {
         title: 'Çelebi Oto Lastik | 7/24 Lastik ve Yol Yardım Hizmeti',
         description: 'Maltepe Bağlarbaşı ve Pendik Kaynarca şubelerimizde 7/24 oto lastik, jant düzeltme, akü değişimi ve yol yardım hizmeti.',
-        url: 'https://www.celebiotolastik.com',
+        url: 'https://celebiotolastik.com/',
         siteName: 'Çelebi Oto Lastik',
         images: [
             {
-                url: 'https://www.celebiotolastik.com/og-image.jpg', //TODO: Logo görseli
+                url: '/images/logo.svg',
                 alt: 'Çelebi Oto Lastik',
             },
         ],
@@ -59,17 +59,17 @@ export const homeMetadata: Metadata = {
         description: 'Pendik ve Maltepe şubelerimizde 7/24 lastik değişimi, akü değişimi ve yol yardım hizmetleri.',
         site: '@celebiotolastik',
         creator: '@celebiotolastik',
-        images: ['https://www.celebiotolastik.com/og-image.jpg'], //TODO: Logo görseli
+        images: ['/images/logo.svg'],
     },
     icons: {
-        icon: '/favicon.ico',  //TODO: Logo görseli
-        shortcut: '/shortcut-icon.png',  //TODO: Logo görseli
-        apple: '/apple-touch-icon.png',  //TODO: Logo görseli
+        icon: '/images/logo.svg',
+        shortcut: '/images/logo.svg',
+        apple: '/images/logo.svg',
     },
     other: {
-        'viewport': 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no',
+        'viewport': 'width=device-width, initial-scale=1.0',
         'searchAction': JSON.stringify({
-            target: 'https://www.celebiotolastik.com/search?q={search_term_string}',
+            target: 'https://celebiotolastik.com/search?q={search_term_string}',
             queryInput: 'required name=search_term_string',
         }),
     },

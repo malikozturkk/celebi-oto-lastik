@@ -3,8 +3,9 @@ import { Metadata } from 'next';
 export const contactMetadata: Metadata = {
     title: "İletişim | Çelebi Oto Lastik - Kaynarca ve Maltepe Şubeleri",
     description: "Çelebi Oto Lastik Kaynarca ve Maltepe şubelerimize iletişim numaralarımız, konum bilgileri, e-posta adresimiz ve harita üzerinden kolayca ulaşabilirsiniz.",
+    themeColor: '#e31e24',
     alternates: {
-        canonical: 'https://www.celebiotolastik.com/iletisim',
+        canonical: 'https://celebiotolastik.com/iletisim',
     },
     keywords: [
         'çelebi oto lastik iletişim', 'kaynarca lastikçi iletişim', 'maltepe lastikçi iletişim', 'oto lastik telefon numarası',
@@ -12,7 +13,7 @@ export const contactMetadata: Metadata = {
         'oto yol yardım telefon', '7/24 lastik değişimi iletişim', 'jant tamiri adres', 'acil lastik değişimi iletişim'
     ],
     authors: [
-        { name: 'Çelebi Oto Lastik', url: 'https://www.celebiotolastik.com' }
+        { name: 'Çelebi Oto Lastik', url: 'https://celebiotolastik.com' }
     ],
     creator: 'Çelebi Oto Lastik',
     publisher: 'Çelebi Oto Lastik',
@@ -20,7 +21,7 @@ export const contactMetadata: Metadata = {
     applicationName: 'Çelebi Oto Lastik',
     appleWebApp: {
         capable: true,
-        statusBarStyle: 'black-translucent',
+        statusBarStyle: 'default',
         title: 'Çelebi Oto Lastik',
     },
     robots: {
@@ -38,11 +39,11 @@ export const contactMetadata: Metadata = {
     openGraph: {
         title: 'İletişim | Çelebi Oto Lastik',
         description: 'Çelebi Oto Lastik Kaynarca ve Maltepe şubelerine iletişim numaralarımız, adreslerimiz ve harita üzerinden kolayca ulaşabilirsiniz.',
-        url: 'https://www.celebiotolastik.com/iletisim',
+        url: 'https://celebiotolastik.com/iletisim',
         siteName: 'Çelebi Oto Lastik',
         images: [
             {
-                url: 'https://www.celebiotolastik.com/og-image.jpg', //TODO: Logo görseli
+                url: '/images/logo.svg',
                 alt: 'Çelebi Oto Lastik',
             },
         ],
@@ -55,17 +56,17 @@ export const contactMetadata: Metadata = {
         description: 'Çelebi Oto Lastik Kaynarca ve Maltepe şubelerine telefon, e-posta veya harita üzerinden ulaşabilirsiniz.',
         site: '@celebiotolastik',
         creator: '@celebiotolastik',
-        images: ['https://www.celebiotolastik.com/og-image.jpg'], //TODO: Logo görseli
+        images: ['/images/logo.svg'],
     },
     icons: {
-        icon: '/favicon.ico',  //TODO: Logo görseli
-        shortcut: '/shortcut-icon.png',  //TODO: Logo görseli
-        apple: '/apple-touch-icon.png',  //TODO: Logo görseli
+        icon: '/images/logo.svg',
+        shortcut: '/images/logo.svg',
+        apple: '/images/logo.svg',
     },
     other: {
-        'viewport': 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no',
+        'viewport': 'width=device-width, initial-scale=1.0',
         'searchAction': JSON.stringify({
-            target: 'https://www.celebiotolastik.com/search?q={search_term_string}',
+            target: 'https://celebiotolastik.com/search?q={search_term_string}',
             queryInput: 'required name=search_term_string',
         }),
     },

@@ -3,8 +3,9 @@ import { Metadata } from 'next';
 export const productsMetadata: Metadata = {
     title: "Ürünlerimiz | Çelebi Oto Lastik - Lastik, Akü, Jant ve Jant & Lastik Takımları",
     description: "Çelebi Oto Lastik olarak kaliteli lastik, akü, jant ve jant & lastik takımları sunuyoruz. Uygun fiyatlarla güvenilir ürünler için hemen inceleyin.",
+    themeColor: '#e31e24',
     alternates: {
-        canonical: 'https://www.celebiotolastik.com/urunler',
+        canonical: 'https://celebiotolastik.com/urunler',
     },
     keywords: [
         'oto lastik', 'otomobil lastikleri', 'yaz lastiği', 'kış lastiği', '4 mevsim lastik', 'akü fiyatları', 'oto akü',
@@ -12,7 +13,7 @@ export const productsMetadata: Metadata = {
         'araba lastiği', 'lastik markaları', 'jant seçimi', 'akü seçimi', 'jant lastik kombinasyonu'
     ],
     authors: [
-        { name: 'Çelebi Oto Lastik', url: 'https://www.celebiotolastik.com' }
+        { name: 'Çelebi Oto Lastik', url: 'https://celebiotolastik.com' }
     ],
     creator: 'Çelebi Oto Lastik',
     publisher: 'Çelebi Oto Lastik',
@@ -20,7 +21,7 @@ export const productsMetadata: Metadata = {
     applicationName: 'Çelebi Oto Lastik',
     appleWebApp: {
         capable: true,
-        statusBarStyle: 'black-translucent',
+        statusBarStyle: 'default',
         title: 'Çelebi Oto Lastik',
     },
     robots: {
@@ -38,11 +39,11 @@ export const productsMetadata: Metadata = {
     openGraph: {
         title: 'Ürünlerimiz | Çelebi Oto Lastik',
         description: 'Lastik, akü, jant ve jant & lastik takımları kategorilerinde geniş ürün yelpazemizi keşfedin. En kaliteli oto lastik ürünleri burada!',
-        url: 'https://www.celebiotolastik.com/urunler',
+        url: 'https://celebiotolastik.com/urunler',
         siteName: 'Çelebi Oto Lastik',
         images: [
             {
-                url: 'https://www.celebiotolastik.com/og-products.jpg', //TODO: Ürünler sayfası görseli
+                url: '/images/logo.svg',
                 alt: 'Çelebi Oto Lastik Ürünler',
             },
         ],
@@ -55,17 +56,17 @@ export const productsMetadata: Metadata = {
         description: 'Lastik, akü, jant ve jant & lastik takımları kategorilerinde geniş ürün yelpazemizi keşfedin. En kaliteli oto lastik ürünleri burada!',
         site: '@celebiotolastik',
         creator: '@celebiotolastik',
-        images: ['https://www.celebiotolastik.com/og-products.jpg'], //TODO: Ürünler sayfası görseli
+        images: ['/images/logo.svg'],
     },
     icons: {
-        icon: '/favicon.ico',  //TODO: Site logosu
-        shortcut: '/shortcut-icon.png',  //TODO: Site logosu
-        apple: '/apple-touch-icon.png',  //TODO: Site logosu
+        icon: '/images/logo.svg',
+        shortcut: '/images/logo.svg',
+        apple: '/images/logo.svg',
     },
     other: {
-        'viewport': 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no',
+        'viewport': 'width=device-width, initial-scale=1.0',
         'searchAction': JSON.stringify({
-            target: 'https://www.celebiotolastik.com/search?q={search_term_string}',
+            target: 'https://celebiotolastik.com/search?q={search_term_string}',
             queryInput: 'required name=search_term_string',
         }),
     },
