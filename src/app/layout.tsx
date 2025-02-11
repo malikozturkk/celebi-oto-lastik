@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Whatsapp from "@/components/Whatsapp";
 import Header from "@/components/Header";
+import { GoogleAnalytics, GoogleTagManagerNoScript } from "@/components/GoogleAnalytics";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,9 +24,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <GoogleAnalytics />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#f6f6f6]`}
       >
+        <GoogleTagManagerNoScript />
         <Header />
         <Navbar />
         {children}
