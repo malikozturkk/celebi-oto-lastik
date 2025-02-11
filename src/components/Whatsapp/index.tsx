@@ -38,7 +38,7 @@ const Whatsapp = () => {
                         </Link>
                     </div>
                     <div className="flex flex-col gap-1">
-                        <p className="text-xs font-semibold tracking-widest uppercase">Kaynarca Şubemiz</p>
+                        <p className="text-xs font-semibold tracking-widest uppercase">Pendik Şubemiz</p>
                         <Link href="https://wa.me/905331601100" target="_blank" className="inline-flex items-center justify-center px-5 py-3 font-semibold text-red bg-white transition-all duration-200 rounded-md gap-1">
                             <svg
                                 width={20}

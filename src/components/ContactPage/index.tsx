@@ -193,7 +193,7 @@ const ContactPage = () => {
             <div className="flex flex-col md:flex-row">
                 <div className="flex flex-col w-full md:w-1/3 p-6">
                     <div className="flex flex-col border-b border-[#e5e5e5] gap-6 pb-4">
-                        <h3 className="text-red text-2xl font-bold">KAYNARCA ÇELEBİ OTO LASTİK</h3>
+                        <h3 className="text-red text-2xl font-bold">PENDİK ÇELEBİ OTO LASTİK</h3>
                         <div className="flex items-center justify-center gap-6">
                             <Link href="tel:05331601100" className="flex flex-col gap-2 items-center justify-center">
                                 <span className="duration-200 bg-red p-2.5 rounded-full flex items-center justify-center hover:bg-hoverRed">

@@ -2,14 +2,14 @@ import { Metadata } from 'next';
 
 export const servicesMetadata: Metadata = {
     title: "Hizmetlerimiz | Çelebi Oto Lastik - 7/24 Lastik, Jant, Akü ve Yol Yardım",
-    description: "Çelebi Oto Lastik olarak 7/24 lastik değişimi, jant düzeltme, akü değişimi, lastik oteli ve mobil hizmetler sunuyoruz. Kaynarca ve Maltepe şubelerimizde profesyonel hizmet alın.",
+    description: "Çelebi Oto Lastik olarak 7/24 lastik değişimi, jant düzeltme, akü değişimi, lastik oteli ve mobil hizmetler sunuyoruz. Pendik ve Maltepe şubelerimizde profesyonel hizmet alın.",
     alternates: {
         canonical: 'https://celebiotolastik.com/hizmetler',
     },
     keywords: [
         'çelebi oto lastik hizmetleri', '7/24 lastik hizmeti', 'lastik oteli', 'lastik değişimi', 'jant düzeltme', 'mobil lastik hizmeti',
         'pendik lastik hizmeti', 'maltepe lastik hizmeti', 'oto lastik tamiri', 'oto yol yardım', 'akü değişimi', 'jant tamiri',
-        'lastik tamiri', 'acil lastik değişimi', 'kaynarca oto lastik', 'maltepe oto lastik', 'mobil lastik değişimi'
+        'lastik tamiri', 'acil lastik değişimi', 'pendik oto lastik', 'maltepe oto lastik', 'mobil lastik değişimi'
     ],
     authors: [
         { name: 'Çelebi Oto Lastik', url: 'https://celebiotolastik.com' }

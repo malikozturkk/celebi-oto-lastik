@@ -108,7 +108,7 @@ const Footer = () => {
                             </div>
 
                             <div className="flex flex-col gap-2">
-                                <p className="text-xs font-semibold tracking-widest text-red uppercase">Kaynarca</p>
+                                <p className="text-xs font-semibold tracking-widest text-red uppercase">Pendik</p>
                                 <div className="flex gap-2">
                                     <svg
                                         width={20}

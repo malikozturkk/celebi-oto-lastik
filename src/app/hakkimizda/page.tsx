@@ -31,43 +31,43 @@ export default function About() {
                     <li><p><strong>Teknolojik Ekipmanlar:</strong> En yeni teknolojiye sahip ekipmanlarımızla jant düzeltme, lastik montajı ve balans ayarı gibi işlemleri titizlikle gerçekleştiriyoruz.</p></li>
                     <li><p><strong>Hızlı ve Etkili Çözümler:</strong> Hem şubelerimizde hem de mobil hizmet araçlarımızla müşterilerimize hızlı ve etkili çözümler sunarak yolculuklarının güvenli devam etmesini sağlıyoruz.</p></li>
                 </ul>
-                <p>Müşterilerimizin güvenliği ve memnuniyeti bizim için her şeyden önemlidir. İstanbul Maltepe ve Kaynarca’daki şubelerimizde sizleri ağırlamaktan mutluluk duyarız. Kaliteli hizmet anlayışımızla, aracınız için en iyi çözümleri sunmak adına her zaman buradayız!</p>
+                <p>Müşterilerimizin güvenliği ve memnuniyeti bizim için her şeyden önemlidir. İstanbul Maltepe ve Pendik'deki şubelerimizde sizleri ağırlamaktan mutluluk duyarız. Kaliteli hizmet anlayışımızla, aracınız için en iyi çözümleri sunmak adına her zaman buradayız!</p>
             </div>
             <div className="flex flex-col gap-4 mt-8">
-                <h1 className="font-bold text-2xl">Kaynarca Şubemiz</h1>
+                <h1 className="font-bold text-2xl">Pendik Şubemiz</h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                     <Zoom>
                         <img
                             src="/images/kaynarca/1.jpg"
-                            alt="Şubemiz - Kaynarca Şube"
+                            alt="Şubemiz - Pendik Şube"
                             className="rounded-lg duration-300 hover:scale-110"
                         />
                     </Zoom>
                     <Zoom>
                         <img
                             src="/images/kaynarca/2.jpg"
-                            alt="Yol Yardım - Kaynarca Şube"
+                            alt="Yol Yardım - Pendik Şube"
                             className="rounded-lg duration-300 hover:scale-110"
                         />
                     </Zoom>
                     <Zoom>
                         <img
                             src="/images/kaynarca/3.jpg"
-                            alt="Yol Yardım - Kaynarca Şube"
+                            alt="Yol Yardım - Pendik Şube"
                             className="rounded-lg duration-300 hover:scale-110"
                         />
                     </Zoom>
                     <Zoom>
                         <img
                             src="/images/kaynarca/4.jpg"
-                            alt="Yol Yardım - Kaynarca Şube"
+                            alt="Yol Yardım - Pendik Şube"
                             className="rounded-lg duration-300 hover:scale-110"
                         />
                     </Zoom>
                     <Zoom>
                         <img
                             src="/images/kaynarca/5.jpg"
-                            alt="Yol Yardım - Kaynarca Şube"
+                            alt="Yol Yardım - Pendik Şube"
                             className="rounded-lg duration-300 hover:scale-110"
                         />
                     </Zoom>

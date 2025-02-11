@@ -112,7 +112,7 @@ export default async function Service({ params }: { params: Params }) {
                                 </Link>
                                 <Link href="tel:05331601100" type="submit" className="inline-flex items-center justify-center px-5 py-3 gap-2 font-semibold text-white transition-all duration-200 w-full md:w-1/2 bg-red rounded-md hover:bg-hoverRed focus:bg-hoverRed">
                                     <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#fff" d="M1 5V1h6v4L4.5 7.5l4 4L11 9h4v6h-4C5.477 15 1 10.523 1 5"></path></svg>
-                                    Kaynarca Şubesi
+                                    Pendik Şubesi
                                 </Link>
                             </div>
                         </div>
