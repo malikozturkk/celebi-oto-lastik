@@ -60,8 +60,6 @@ export const homeMetadata: Metadata = {
         images: ['/images/logo.svg'],
     },
     icons: {
-        icon: '/images/logo.svg',
-        shortcut: '/images/logo.svg',
         apple: '/images/logo.svg',
     },
     other: {

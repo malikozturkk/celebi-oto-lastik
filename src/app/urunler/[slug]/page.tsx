@@ -67,8 +67,6 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
             images: ['/images/logo.svg'],
         },
         icons: {
-            icon: '/images/logo.svg',
-            shortcut: '/images/logo.svg',
             apple: '/images/logo.svg',
         },
         other: {
